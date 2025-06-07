@@ -1,0 +1,98 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  overflow-y: auto;
+}
+
+.modal-box {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 600px;
+  position: relative;
+}
+
+.close-btn {
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  font-size: 24px;
+  background: none;
+  border: none;
+  color: #f31840;
+  cursor: pointer;
+}
+
+.form-style input[type="text"],
+.form-style input[type="email"],
+.form-style input[type="tel"] {
+  width: 100%;
+  padding: 10px;
+  margin: 6px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.input-group {
+  display: flex;
+  gap: 10px;
+}
+
+.radio-group,
+.checkbox-group {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.agree-box {
+  margin: 10px 0;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #f31840;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+  font-size: 0.9rem;
+}
+
+.thank-you {
+  text-align: center;
+}
+
+.submission-table {
+  width: 100%;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.submission-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.submission-table th,
+.submission-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}

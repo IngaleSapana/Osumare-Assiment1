@@ -1,0 +1,13 @@
+.submission-table {
+  padding: 20px;
+}
+
+.submission-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.submission-table th, .submission-table td {
+  padding: 10px;
+  text-align: left;
+}

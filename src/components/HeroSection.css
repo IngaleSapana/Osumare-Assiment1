@@ -1,0 +1,99 @@
+.hero-intro-text {
+  font-size: 18px;
+  color: #1f1f1f;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.btn-pink {
+  background-color: #f31840;
+  color: white;
+  border: none;
+  transition: 0.3s;
+  font-weight: 500;
+}
+
+.btn-pink:hover {
+  background-color: #f31840;
+}
+
+.btn-outline-pink {
+  border: 1px solid #f31840;
+  color: #f31840;
+  background: transparent;
+  transition: 0.3s;
+  font-weight: 500;
+}
+
+.btn-outline-pink:hover {
+  background-color:  #f31840;
+  color: white;
+}
+
+.pink-card {
+  background-color:  #f31840;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  height: 100%;
+}
+
+.image-card {
+  border-radius: 16px;
+  overflow: hidden;
+  height: 100%;
+}
+
+.card-img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.card-img-overlay {
+  padding: 20px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent);
+  border-radius: 16px;
+}
+
+.play-btn {
+  background-color: rgb(35, 33, 33);
+  color: #edecec;
+  border: none;
+  border-radius: 50%;
+  font-size: 20px;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 22px;
+  background: rgba(255, 255, 255, 0.8);
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.left-arrow {
+  left: 10px;
+}
+
+.right-arrow {
+  right: 10px;
+}
+.brand{
+  padding: 0px;
+  margin: 0px;
+}
+.row1{
+  height: 70px;
+
+}
